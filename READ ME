@@ -1,0 +1,19 @@
+What I learned
+
+In main driver, functions do not have parameters with datatypes.
+For example, func(name, origin, rating...)
+
+You create an object by assigning class name to function that's being declared. Then you can access the member function through an object
+For example, Food wholefood(...
+            wholefood.displayInfo
+
+Inheritance is the act of designating members of an existing class to a new class. So you don't have to create new members. 
+
+Thus class Sweet : public Food (inherits food, name, rating...)
+
+Constructors are USEFUL in Class.cpp files. I learn to assign members from main.cpp to private members in head file. 
+For ex   funct(...
+        :name(name) // priv data <== var from main.cpp
+
+Ternary operator (condition ? choice1 : choice2);
+               
